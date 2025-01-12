@@ -16,86 +16,139 @@
   </style>
 </head>
 <body>
+ 
   <main class="container">
-    <header class="header">
-      <h1 class="title">Notifications <span>3</span></h1>
-      <p class="read">Mark all as read</p>
-    </header>
-    <section class="main">
-      <div class="user">
-        <img src="assets/images/avatar-mark-webber.webp" alt="user-avatar" class="user-avatar">
-        <p class="user-description">
-          <strong class="user_name">Mark Webber </strong>reacted to your recent post<span class="">My first tournament today!</span>
-        </p>
-        <p class="time">1m ago</p>
-        <div class="coment">
+    
+    <!-- ! CABECALHO -->
 
+    <header class="header">
+      <div class="notif-box">
+        <h1 class="title">Notifications</h1>
+        <span id="notification"></span>
+      </div>
+      
+      <p class="mark_all">Mark all as read</p>
+    </header>
+
+    <!-- ! CORPO -->
+
+    <section class="main">
+
+      <!-- ? MARK WEBBER -->
+      <div class="user unread">
+        <img src="assets/images/avatar-mark-webber.webp" alt="user-avatar" class="user-avatar">
+        <div class="description">
+          <p class="user-description">
+            <strong class="dark-mode">Mark Webber </strong>reacted to your recent post<span class="dark-mode"> My first tournament today!</span>
+          </p>
+          <p class="time">1m ago</p>
+          <div class="coment">
+          </div>
         </div>
       </div>
-      <div class="user">
+
+      <!-- ?ANGELA GRAY -->
+      <div class="user unread">
+
         <img src="assets/images/avatar-angela-gray.webp" alt="user-avatar" class="user-avatar">
-        <p class="user-description">
-          <strong class="user_name">Angela Gray </strong>followed you<span class=""></span>
-        </p>
-        <p class="time">5m ago</p>
-        <div class="coment">
+        
+        <div class="description">
+          <p class="user-description">
+            <strong class="dark-mode">Angela Gray </strong>followed you<span class=""></span>
+          </p>
+          <p class="time">5m ago</p>
+          <div class="coment">
           
+          </div>
         </div>
       </div>
-      <div class="user">
+
+      <!-- ? JACOB THOMPSON -->
+      <div class="user unread">
+        
         <img src="assets/images/avatar-jacob-thompson.webp" alt="user-avatar" class="user-avatar">
-        <p class="user-description">
-          <strong class="user_name">Jacob Thompson</strong> has joined your group<span class="">Chess Club</span>
-        </p>
-        <p class="time">1 day ago</p>
-        <div class="coment">
+        
+        <div class="description">
+          <p class="user-description">
+            <strong class="dark-mode">Jacob Thompson</strong> has joined your group<span class="dark-mode"> Chess Club</span>
+          </p>
+          <p class="time">1 day ago</p>
+          <div class="coment">
           
+          </div>
         </div>
       </div>
+
+      <!-- ? RIZKY HASANUDDIN -->
       <div class="user">
+
         <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="user-avatar" class="user-avatar">
-        <p class="user-description">
-          <strong class="user_name">Rizky Hasanuddin </strong>sent you a private message<span class=""></span>
-        </p>
-        <p class="time">5 days ago</p>
-        <div class="coment">
-          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-          I'm already having lots of fun and improving my game.
+
+        <div class="description">
+          <div class="message-card">
+            <p class="user-description">
+              <strong class="dark-mode">Rizky Hasanuddin </strong>sent you a private message<span class=""></span>
+            </p>
+            <p class="time">5 days ago</p>
+          </div>
+          
         </div>
       </div>
+      <div class="message">
+        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+        I'm already having lots of fun and improving my game.
+      </div>
+
+      <!-- ? KIMBERLY SMITH -->
       <div class="user">
+        
         <img src="assets/images/avatar-kimberly-smith.webp" alt="user-avatar" class="user-avatar">
-        <p class="user-description">
-          <strong class="user_name">Kimberly Smith </strong>commented on your picture<span class=""></span>
-        </p>
-        <p class="time">1 week ago</p>
-        <div class="coment">
-          
+        
+        <div class="description">
+          <p class="user-description">
+            <strong class="dark-mode">Kimberly Smith </strong>commented on your picture<span class=""></span>
+          </p>
+          <p class="time">1 week ago</p>
         </div>
+        <img src="assets/images/image-chess.webp" alt="chess-image" class="chess-image">
       </div>
+
+      <!-- ? NATHAN PETERSON -->
       <div class="user">
+
         <img src="assets/images/avatar-nathan-peterson.webp" alt="user-avatar" class="user-avatar">
-        <p class="user-description">
-          <strong class="user_name">Nathan Peterson  </strong>reacted to your recent post<span class="">5 end-game strategies to increase your win rate</span>
-        </p>
-        <p class="time">2 weeks ago</p>
-        <div class="coment">
+        
+        <div class="description">
+          <p class="user-description">
+            <strong class="dark-mode">Nathan Peterson  </strong>reacted to your recent post<span class="">5 end-game strategies to increase your win rate</span>
+          </p>
+          <p class="time">2 weeks ago</p>
+          <div class="coment">
           
+          
+          </div>
         </div>
       </div>
+
+      <!-- ? ANNA KIM -->
       <div class="user">
+        
         <img src="assets/images/avatar-anna-kim.webp" alt="user-avatar" class="user-avatar">
-        <p class="user-description">
-          <strong class="user_name">Anna Kim  
-            </strong>left the group<span class="">Chess Club</span>
-        </p>
-        <p class="time">2 weeks ago</p>
-        <div class="coment">
+        
+        <div class="description">
+          <p class="user-description">
+            <strong class="dark-mode">Anna Kim
+              </strong>left the group<span class="dark-mode"> Chess Club</span>
+          </p>
+          <p class="time">2 weeks ago</p>
+          <div class="coment">
           
+          </div>
         </div>
       </div>
     </section>
   </main>
+  <script src="app.js"></script>
  
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
