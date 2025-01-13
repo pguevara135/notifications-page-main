@@ -14,7 +14,7 @@ unReadMessage.forEach((message) => {
 });
 
 markAll.addEventListener('click', () => {
-    unread.forEach((message) => {
+    unReadMessage.forEach((message) => {
         message.classList.remove('unread');
     });
     const newUnreadMessage = document.querySelectorAll('.unread');
