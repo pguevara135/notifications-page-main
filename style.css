@@ -156,8 +156,17 @@ body {
     margin-left: auto;
 }
 
-@media screen and (max-width: 55px) {
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 12px;
+    }
     .container {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main {
+        max-width: 95%;
     }
 }
